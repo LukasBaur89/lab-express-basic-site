@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 7rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90vw;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.image {
+  width: 20vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 1.5em;
+  border-radius: 40px;
+  transition: flex 0.8s ease-in;
+}
+
+.image h3 {
+  position: absolute;
+  font-size: 2rem;
+  bottom: 70px;
+  left: 30px;
+  color: #fff;
+}
+
+.card {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.about {
+  height: 50vh;
+}
+
+.card-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-bottom: 2em;
+}
+
+.works {
+  height: 30vh;
+  width: 20vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+.photo {
+  width: 180px;
+  background-repeat: no-repeat;
+}
+
+.card-works {
+  display: flex;
+}
